@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Order.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Promotion.cs" />
+    <Compile Include="PromotionChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
