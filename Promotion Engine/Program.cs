@@ -71,6 +71,7 @@ namespace Promotion_Engine
                 decimal promoprice = promoprices.Sum();
                 Console.WriteLine($"OrderID: {ord.OrderID} => Original price: {origprice.ToString("0.00")} | Rebate: {origprice-FinalPrice} | Final price: {FinalPrice}");
             }
+            Console.ReadLine();
         }
 
 
